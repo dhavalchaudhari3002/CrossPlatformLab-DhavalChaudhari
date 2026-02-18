@@ -18,7 +18,7 @@ jobs:
 
       - name: Create Test File
         run: |
-          echo "Ubuntu test by YourName" > test-ubuntu.txt
+          echo "Ubuntu test by DhavalChaudhari" > test-ubuntu.txt
 
       - name: Display File Contents
         run: cat test-ubuntu.txt
@@ -38,7 +38,7 @@ jobs:
 
       - name: Create Test File
         run: |
-          echo Windows test by YourName > test-windows.txt
+          echo Windows test by DhavalChaudhari > test-windows.txt
 
       - name: Display File Contents
         run: type test-windows.txt
